@@ -49,6 +49,7 @@ header{
 	line-height: 19px;
 	width: 500px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	font-family: Rubik;
 }
@@ -352,5 +353,53 @@ font-weight:normal;font-style:normal
 @media all and (max-width: 751px) {
   .one {
   	margin-top: -650px;
+  }
+}
+@media all and (max-width: 648px) {
+  .comments-clients {
+  	justify-content: center;
+  	flex-direction: column;
+  	width: 360px;
+  }
+  .comments-section{
+  	width: 360px;
+  	margin: 0 auto;
+  }
+}
+@media all and (max-width: 620px) {
+  .img-box img{
+  	width: 300px;
+  }
+}
+@media all and (max-width: 405px) {
+  .question-open{
+  	width: 300px;
+  }
+  .answer{
+  	width: 300px;
+  }
+  .indent{
+  	margin: 0;
+  }
+  .load-more{
+  	width: 300px;
+  }
+  .question-box{
+  	width: 300px;
+  }
+  .size-text-box{
+  	width: 300px;
+  }
+  .text-box{
+  	width: 300px;
+  }
+  .header-tagline{
+  	width: 300px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .header-tagline h1{
+  	font-size: 20px;
   }
 }
